@@ -6,6 +6,12 @@ Libraries:
  - Pre-commit install
    $ pip3 install pre-commit
 
+ - Flask
+    $ pip install Flask
+ 
+ - Python-barcode
+    $ pip install python-barcode
+
 VS Code plugins: 
 
  - Pylint
