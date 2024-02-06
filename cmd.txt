@@ -27,3 +27,9 @@
 
  --> git hooks scripts install: 
      $ pre-commit install
+
+
+
+
+ --> Export the lib references: 
+    $ .venv/bin/pip3 freeze > requirements.txt 
