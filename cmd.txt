@@ -19,4 +19,11 @@
   $ pylint --generate-rcfile > .pylintrc
 
  - Editar o arquivo em conformidade com a sua necessidade.
-     (Disable the some problem code verify.)
+     (Disable the some code problem verify.)
+
+
+
+
+
+ --> git hooks scripts install: 
+     $ pre-commit install

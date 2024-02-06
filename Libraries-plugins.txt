@@ -3,8 +3,11 @@ Libraries:
 - Pylint:
    $ pip install pylint
 
-
+ - Pre-commit install
+   $ pip3 install pre-commit
 
 VS Code plugins: 
 
  - Pylint
+
+
