@@ -1,0 +1,10 @@
+Libraries: 
+
+- Pylint:
+   $ pip install pylint
+
+
+
+VS Code plugins: 
+
+ - Pylint

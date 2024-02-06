@@ -1,0 +1,22 @@
+
+ --> Python virtual env install: 
+  $ pip install virtualenv
+
+ -> Create the virtual module: 
+  $ python3 -m venv .venv
+
+ -> Activate module: 
+  $ <venv-path>/bin/activate
+
+  Exemplo: source .venv/bin/activate
+
+  - Desativar o ambiente: 
+   $ deactivate
+
+
+
+ --> Generate the lint code: 
+  $ pylint --generate-rcfile > .pylintrc
+
+ - Editar o arquivo em conformidade com a sua necessidade.
+     (Disable the some problem code verify.)
