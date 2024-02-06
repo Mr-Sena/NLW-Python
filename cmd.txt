@@ -24,9 +24,15 @@
 
 
 
-
+ 
  --> git hooks scripts install: 
      $ pre-commit install
+
+Describe: pre-commit possui a responsabilidade de controlar 
+a esteira de pipeline de commit do git. Nesse caso todos os 
+códigos de Python que possuir algum erro, impede que 
+o commit do repositório seja realizado.
+
 
 
 
