@@ -1,7 +1,8 @@
 from src.views.http_types.http_request import HttpRequest
 from src.views.http_types.http_response import HttpResponse
+from src.controllers.tag_creator_controller import TagCreatorController
 
-class TagCreatorView: 
+class TagCreatorView:
     '''
         Responsiidade para interagir com HTTP.
     '''
@@ -12,6 +13,8 @@ class TagCreatorView:
 
         # Business rule
         print('Processo em view.')
+        tag_creator_controller = TagCreatorController()
+        tag_data = tag_creator_controller.create(product_code)
 
         # HTTP Response.
-        return HttpResponse(200, {"hello": "here."})
+        return HttpResponse(200, tag_data)
