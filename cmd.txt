@@ -23,6 +23,8 @@
 
 
 
+- Pre-commit install
+   $ pip3 install pre-commit
 
  
  --> git hooks scripts install: 
