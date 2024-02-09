@@ -58,3 +58,7 @@ o commit do repositório seja realizado.
 > Run the specif cenary: 
     $ pytest -s -v <path>
     $ pytest -s -v src/controllers/tag_creator_controller_test.py 
+
+
+> Python install all dependecies: 
+   $ pip3 install -r requirements.txt 
