@@ -41,3 +41,20 @@ o commit do repositório seja realizado.
 
  --> Export the lib references: 
     $ .venv/bin/pip3 freeze > requirements.txt 
+
+
+
+
+ > Run the main: 
+    $ python3 run.py
+
+
+ > Run test;
+    $ pytest
+
+  > Enable the terminal display:
+    $ pytest -s -v
+
+> Run the specif cenary: 
+    $ pytest -s -v <path>
+    $ pytest -s -v src/controllers/tag_creator_controller_test.py 

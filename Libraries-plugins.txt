@@ -12,6 +12,11 @@ Libraries:
  - Python-barcode
     $ pip install python-barcode
 
+ - cerberus
+   * Request body validator.
+
+ - Pytest
+   * Python unit tests.
 VS Code plugins: 
 
  - Pylint
