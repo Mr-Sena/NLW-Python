@@ -5,6 +5,7 @@ from .tag_creator_controller import TagCreatorController
 ### Mock the create_barcode method, from the BarCodeHandler class.
 @patch.object(BarCodeHandler, 'create_barcode')
 def test_create(mock_create_barcode):
+
     mock_value = "image_path"
 
     ## When the funcion has called, then return the mock value.
